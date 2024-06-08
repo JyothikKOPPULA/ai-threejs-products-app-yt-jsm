@@ -3,7 +3,7 @@ import { useSnapshot } from 'valtio';
 
 import state from '../store';
 import { headContainerAnimation, headContentAnimation, headTextAnimation, slideAnimation } from '../config/motion';
-import { CustomButton } from '../components';
+import { CustomButton, Tab } from '../components';
 
 const Home = () => {
   const snap = useSnapshot(state);
@@ -29,8 +29,21 @@ const Home = () => {
           >
             <motion.div {...headTextAnimation}>
               <h1 className="head-text">
-                LET'S <br className="xl:block hidden" /> DO IT.
+              Rare'm
+<br className="xl:block hidden" /> 
               </h1>
+              <motion.div>
+            <strong> 
+              <pre>                        CRAFT YOUR WARDROBE</pre></strong>
+            </motion.div>
+            
+            </motion.div>
+            
+            <motion.div>
+             <pre>                   
+              
+              
+                      </pre>
             </motion.div>
             <motion.div
               {...headContentAnimation}
